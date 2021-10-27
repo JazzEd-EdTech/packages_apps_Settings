@@ -28,7 +28,7 @@ import com.android.settings.core.BasePreferenceController;
 public class ElixirVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "ElixirVersionPreferenceController";
-    private static final String ROM_PROPERTY = "ro.elixir.version";
+    private static final String ROM_PROPERTY = "org.elixir.version";
 
     public ElixirVersionPreferenceController(Context context, String key) {
         super(context, key);
